@@ -18,3 +18,4 @@ This section describes how to use Minishift to set up OpenShift 3.
 ----
 $ minishift start --memory=4096
 ----
+NOTE: minishift seems to have trouble changeing the memory available to the minishift virtual machine ins some cases. This is confirmed on Windows using Virtual Box. If you increase the memory after the initial run of minishift, you may have to increase the RAM on the virtual machine manually.
