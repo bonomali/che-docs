@@ -3,7 +3,7 @@ title: Advanced configuration options
 keywords:
 tags: []
 sidebar: che_7_docs
-permalink: che-7/advanced-configuration-options.html
+permalink: che-7/advanced-configuration-options/
 folder: che-7/installation-guide
 summary:
 ---
@@ -15,7 +15,7 @@ summary:
 
 :context: advanced-configuration-options
 
-The following section describes advanced deployment and configuration methods for Eclipse Che.
+The following section describes advanced deployment and configuration methods for {prod}.
 
 include::con_che-configmaps-and-their-behavior.adoc[leveloffset=+1]
 
@@ -33,10 +33,14 @@ include::con_che-configmaps-and-their-behavior.adoc[leveloffset=+1]
 
 // include::proc_configuring-email-notifications.adoc[leveloffset=+1]
 
-// include::proc_configuring-namespace-strategies.adoc[leveloffset=+1]
+include::proc_configuring-namespace-strategies.adoc[leveloffset=+1]
 
 // include::proc_configuring-workspace-memory-settings.adoc[leveloffset=+1]
 
 // include::proc_configuring-che-with-openshift-oauth.adoc[leveloffset=+1]
+
+include::proc_deploying-che-with-support-for-git-repositories-with-self-signed-certificates.adoc[leveloffset=+1]
+
+include::ref_che-configmaps-fields-reference.adoc[leveloffset=+1]
 
 :context: {parent-context-of-advanced-configuration-options}

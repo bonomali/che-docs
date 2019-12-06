@@ -15,6 +15,7 @@ This section describes how to upgrade the `chectl` management tool.
 
 * Run the following command in the terminal to update `chectl` to the latest version.
 +
+[subs="+attributes"]
 ----
 # chectl update
 ----
@@ -26,12 +27,13 @@ The command updates `chectl` based on its current channel.
 ====
 Two update channels are available for `chectl`: `stable` and `next`.
 
-`stable` is for the latest released version of Eclipse Che. 
+`stable` is for the latest released version of {prod}. 
 
 `next` is updated after each activity in master branch of the link:https://github.com/che-incubator/chectl[chectl repository].
 
 To move to a different channel, invoke the update with the name of the channel as an optional argument.
 
+[subs="+attributes"]
 ----
 # chectl update [next|stable]
 ----
